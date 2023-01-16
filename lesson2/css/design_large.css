@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #212121;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    margin-top: -20px;
+}
+
+.main-page-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 15px;
+}
+
+figure {
+    background-color: #eeeeee;
+    border-radius: 15px 15px 0px 0px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #acacac;
+    margin: 0;
+}
+
+.main-page-grid h3 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #383838;
+    border-radius: 14px 14px 0px 0px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.main-page-grid p {
+    margin: 0;
+    padding: 0px 10px 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #383838;
+}
+
+.main-page-grid a {
+    margin: 0;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-holder {
+    padding: 5px;
+    margin: 0;
+}
+
+.image-holder img {
+    width: 100%;
+}
+
+footer {
+    text-align: center; 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: #212121;
+    padding: 4px;
+    color: white;
+}

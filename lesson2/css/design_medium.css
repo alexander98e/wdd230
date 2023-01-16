@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .main-page-grid {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        padding: 15px;
+    }
+    .grid-css-3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
