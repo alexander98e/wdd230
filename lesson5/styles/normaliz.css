@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/718/376/985/lds-temple-mormon-church-of-jesus-christ-of-latter-day-saints-wallpaper-preview.jpg");
+    background-color: #cccccc;
+    background-size: 1600px 1000px;
+    background-position: center;
+   }
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Acme, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+main {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	background-color: #ddd;
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+button {
+	padding: 0.7rem;
+}
+
+button {
+	margin: 0.5rem;
+}
+
+.delete {
+	width: fit-content;
+     
+}
+
+.input {
+	display: flex;
+	gap: 1rem;
+}
+
+.list {
+	padding: 0.5rem;
+    
+}
+
+ul {
+	margin: 2rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+#text {
+    color: rgb(235, 39, 39);
+}
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	main {
+		width: 320px;
+	}
+}
+
+.div image{
+    width: 1px;
+    height: 1px;
+}
+
+body{
+    margin: auto, red;
+    
+}
