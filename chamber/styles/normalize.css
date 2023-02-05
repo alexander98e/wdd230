@@ -119,4 +119,44 @@ footer
     background-color:rgb(84, 114, 137);
 
 }
+p1{
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin:5px;
+  border: 1px solid #07510a;
 
+}
+.imagen1{
+    width: 290px;height:240px;
+    
+}
+.imagen2{
+    width: 400px;height:560px;
+    
+}
+.caja3{
+    width: 300px;height:260px;
+    
+}
+
+.imagen5{
+    width: 300px;height:240px;
+    
+}
+.imagen6{
+    width: 300px;height:210px;
+    
+}
+.imagen8{
+    width: 370px;height:230px;
+    
+}
+.imagen4{
+    width: 295px;height:260px;
+    
+}
+.imagen7{
+    width: 295px;height:230px;
+    
+}
