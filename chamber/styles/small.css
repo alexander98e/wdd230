@@ -16,3 +16,14 @@ and (min-width : 321px) {
 and (max-width : 320px) {
 /* Styles */
 }
+@media screen and (max-width: 600px)
+{
+
+    body {background-color: green; }
+
+    .main{
+        flex-wrap: wrap;
+    }
+
+
+}

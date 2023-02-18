@@ -1,24 +1,38 @@
+.header {
+    padding: 25px;
+    text-align: center;
+    background: #076048;
+    
+    
+  }
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 body {
     background-color: rgb(127, 171, 163);
     padding-bottom: 30px;
 }
 
-.navbar {
-    width:750px;
-margin:0 auto;
-list-style:none;
-}
+
 .navbar a{
     float:left;
+    color: rgb(0, 0, 0);
+    
     }
  .navbar a {
         display:block;
-        text-align:center;
+        text-align:right;
         width:180px; /* fixed width */
-        text-decoration:salmon; 
+         
+
         }
 .logo{
     cursor: pointer;
+    width:200px;
+    height:130px;
 }
 
 .navbar{
@@ -26,137 +40,158 @@ list-style:none;
 }
 .navbar li{
     display: inline-block;
-    padding: 0px 20 px;
+    padding: 0px 0px;
 }
 .navbar li a{
     transition: all 0.3s ease 0s;
 }
 .navbar li a:hover{
-    color :rgba(45, 251, 247, 0.829)
+    color :rgba(173, 17, 17, 0.829)
 }
 button{
-    padding: 9px 25px;
+    padding: 30px 90px;
     background-color: rgba(50, 184, 13, 0.705);
     border: none;
     border-radius: 50px;
     cursor:pointer;
     transition: all 1.8s ease 0s;
+    margin-inline-start: 100%;  
+    margin-top: 100%;  
 }
 button:hover{
-    background-color: rgba(0,136,169,0.8);
+    background-color: rgba(183, 180, 180, 0);
 }
 
 a 
 {  
 font-size:x-large;  
 }  
-
-.caja1{
-    background-color: seashell;
-    width: 300px;
-    height: 300px;
-    float: left;
-    margin-right: 30px;
-    margin-left: 100px;
-    border: 5px solid rgb(231, 222, 37);
-}
-.caja2{
-    background-color: seashell;
-    width: 400px;
-    height: 610px;
-    float: left;
-    margin-right: 30px;
-    border: 5px solid rgb(231, 222, 37);
-}
-.caja3{
-    background-color: seashell;
-    width: 300px;
-    height: 300px;
-    float: left;
-    border: 2px solid rgb(231, 222, 37);
-}
-.caja4{
-    background-color: rgb(248, 231, 219);
-    width: 300px;
-    height: 300px;
-    float: left;
-    border: 2px solid rgb(231, 222, 37);
-}
-.caja5{
-    background-color: rgb(243, 214, 193);
-    width: 300px;
-    height: 300px;
-    float: left;
-    border: 2px solid rgb(231, 222, 37);
+.h2{
+    orientation: top;
 }
 
-.caja6{
-    position: absolute;
-    background-color: seashell;
-    width: 300px;
-    height: 280px;
-    float :left;
-    margin: 0 220px;
-    border: 5px solid rgb(231, 222, 37);
+.main {
+    display: flex;
+    align-items: right;
+    width: 95vw;
+    height: 104vh;
+    margin: 0% auto;
+    background-color: rgb(240, 234, 229); 
+    outline: 8px solid #44362b00;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: rotate(-57deg); 
+    -ms-transform: rotate(-57deg); 
+    -webkit-transform: rotate(-57deg); 
+    -moz-transform: rotate(-57deg);
+   
+    }
+
+.item-one{
+    background-color: rgb(68, 80, 70);
+    height: 90;
+    width: 90;
+    
 }
-.caja7{
-    position: absolute;
-    background-color: seashell;
-    width: 399px;
-    height: 280px;
-    float :left;
-    margin: 0 562px;
-    border: 5px solid rgb(231, 222, 37);
+.item-two{
+    background-color: rgb(89, 97, 91);
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+.item-three{
+    background-color: rgb(96, 106, 98);
+    
+    
+    
+    }
+.item-four{
+    background-color: rgb(80, 87, 82);
+    
+}
+.item-five{
+    background-color: rgb(107, 114, 109);
+    
+    }
+.item-six{
+    background-color: rgb(113, 120, 114);
+    
+    }
+.item-seven{
+    background-color: rgb(162, 172, 164);
+    }
+.item-eight{
+    background-color: rgb(182, 188, 183);
+    height: 270px;
+    width: 290px;
+    }
+
+h2{
+    text-align: center;
 }
 
-footer
+/*tablet config */
+
+@media screen and (max-width: 800px)
 {
-    margin-top:400px;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
-    height:300px;
-    background-color:rgb(84, 114, 137);
-
+body {background-color: blue;}
 }
-p1{
-    text-align: right;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-    margin:5px;
-  border: 1px solid #07510a;
-
-}
-.imagen1{
-    width: 290px;height:240px;
-    
-}
-.imagen2{
-    width: 400px;height:560px;
-    
-}
-.caja3{
-    width: 300px;height:260px;
-    
+#container{
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.imagen5{
-    width: 300px;height:240px;
-    
+
+@media screen and (max-width: 600px)
+{
+
+    body {background-color: green; }
+
 }
-.imagen6{
-    width: 300px;height:210px;
+
+@media all and (max-width: 500px) {
     
+
+@media (max-width: 480px) {
+    #picblock {
+      background-image: url(mobile.png);
+      background-repeat: no-repeat;
+      background-size: contain ;
+    }
+  }
+@media (min-width: 481px) {
+    #picblock {
+      background-image: url(desktop.png);
+      background-repeat: no-repeat;
+      background-size: contain ;
+    }
+  }
 }
-.imagen8{
-    width: 370px;height:230px;
-    
+
+.hero {
+    margin-top: 30px; text-align: center;
+    }
+.hero img {
+    max-width: 100%;
+    }
+img {
+    max-width: 100%;
+ }
+.div{
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.imagen4{
-    width: 295px;height:260px;
-    
+
+.btn-group{
+    width:60px;
+    height: 60px;
 }
-.imagen7{
-    width: 295px;height:230px;
-    
+.item-two {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
+

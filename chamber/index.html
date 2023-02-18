@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        
         <!--The header must contain a logo, site name, and navigation
          (nav), spanning the entire screen in the large view.
         You may elect to limit the content width within the header.-->
@@ -20,6 +21,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Bolivian CHAMBER OF COMMERCE</title>
         <meta name="description" content="Pagina principal de camara de comercio">
+        <div class="header">
+            
+          </div>
         <p1>Date/Time: <span id="datetime"></span></p1>
 
          <script>
@@ -29,13 +33,12 @@
       
         <div>
             
-
             <img class="logo" src="images/cnc.jpg" alt="logo camara de comercio"
             
                     />
                 <style>
 
-                img {
+                #logo {
                 width:200px;height:130px;
                 float: left;
                 
@@ -44,15 +47,14 @@
                 
                 </style>
                  <div class="card-holder">
-                     <br><br><br>
-                    <div class="camara de comercio">
+                     <div class="camara de comercio">
                         Bolivia Chamber 
                       <div>of Comerce</div> 
                      </div>
                    </div>
                 <nav>
                    <ul class="navbar">
-                     <li><a href="#discover">  Discover    </a></li>
+                     <li><a href="#discover"> Discover    </a></li>
                      <li><a href="#directory">  Directory    </a></li>
                      <li><a href="#join">  Join        </a></li>
                      <li><a href="#contact">  Contact</a></li>
@@ -69,18 +71,21 @@
 
                 .facebook {
                     position: relative;
-                    top: -80px;
-                    right: -1180px;
+                    top: -168px;
+                    right: -1070px;
                     width:60px;height:40px;
                     
                 }
                 .linkdln{
                     position: relative;
-                    top: -80px;
-                    right: -1200px;
+                    top: -230px;
+                    right: -940px;
                     width:60px;height:40px;
                 }
                  </style>
+                 <div class="header">
+                   
+                  </div>
         </div>     
     </header>
     <main>
@@ -88,62 +93,57 @@
     </main>
     
 </body>
-<main>
-    <div class="caja1">
-        <p>New Events Around You! </p>
-        <img class='imagen1' src="https://pbs.twimg.com/media/FU6Cil9WQAEhgSi.jpg">
-        
-    </div>
-    
-    <div class="caja2">
-        <p>Bolivian Chamber of Commerce</p>
-        <img class='imagen2' src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Banco_Central_de_Bolivia%2C_La_Paz.jpg/1200px-Banco_Central_de_Bolivia%2C_La_Paz.jpg">
-    </div>
-    
-    <div class="caja3">
-        <p>Debit Card Market in Bolivia</p>
-        <img class='div. caja3' src="https://cdn.shopify.com/s/files/1/0262/6142/2140/files/202006BoliviaDebitCardMarketFeesOverview202004_large.png?v=1592840004">
-    </div>
-    <div class="caja4">
-        <p>Economy News</p>
-        <img class='imagen4' src="https://img.kiosko.net/2020/12/09/bo/bo_elmundo.750.jpg">
-    </div>
-    <div class="caja5">
-        <p>Business Statistics- Financial</p>
-        <img class='imagen5' src="https://boliviaemprende.com/wp-content/uploads/2021/02/fundempresa-enero-2.jpg">
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="caja6">
-        <p>Example of promoting business entrepreneurship</p>
-        <img class='imagen6' src="https://www.magazinemanagement.gm-bolivia.com/wp-content/uploads/2021/10/Copia-de-Tamaño-web-31-2.png">
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="caja6">
-        <p>PGE PROJECTS</p>
-        <img class='imagen7' src="https://www.eldiario.net/portal/wp-content/uploads/2021/12/PIB-2.jpg  ">
-    </div>
-    
-    <div class="caja7">
-        <p>Business opportunities</p>
-        <img class='imagen8' src="https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/294270244_5566783660041030_1174610832071534032_n.png?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=yjvJCHi_amwAX_AQZLk&_nc_ht=scontent.fslc3-1.fna&oh=00_AfBFRH6SFC1jcpBQvkxiaC0U5xiGF-WzhtGlYy96qh3aww&oe=63E3B23C">
-    </div>
 
+<main>
+    <div id="container">
+        <div class="item-one"><img src="https://pbs.twimg.com/media/FU6Cil9WQAEhgSi.jpg" width="340" height="270" alt="pic"> <div class="btn-group">
+            <button>JOIN US</button>
+          </div></div> 
+        <div class="item-two">
+            <source srcset="images/small.png" media=" (min-width:
+            500px) and (max-width: 799px)">
+                <source srcset="images/medium.png" media=" (min-width:
+                 800px)">
+            <img src="images/large.png" alt="the new heaby pic" width="500" height="400">
+        </div>     
+        <div class="item-three"><img src="https://cdn.shopify.com/s/files/1/0262/6142/2140/files/202006BoliviaDebitCardMarketFeesOverview202004_large.png?v=1592840004" width="340" height="270" alt=""></div>
+        <div class="item-four"><img src="https://img.kiosko.net/2020/12/09/bo/bo_elmundo.750.jpg" width="340" height="270" alt=""></div> 
+        <div class="item-five"><img src="https://boliviaemprende.com/wp-content/uploads/2021/02/fundempresa-enero-2.jpg" width="340" height="270" alt=""></div> 
+        <div class="item-six"><img src="https://www.magazinemanagement.gm-bolivia.com/wp-content/uploads/2021/10/Copia-de-Tamaño-web-31-2.png" width="340" height="270" alt=""></div>
+        <div class="item-seven"><img src="https://www.eldiario.net/portal/wp-content/uploads/2021/12/PIB-2.jpg "width="340" height="270" alt=""></div>
+        <div class="item-eight"><defer> </script> <script src="https://apps.elfsight.com/p/platform.js" defer></script> <div class="elfsight-app-f53f5cb5-9fe9-4ce1-a32a-02c44ec8d2fc"></div></div>
+    </div>
+        
+       
+    
+    </div>
 </main>
+
 <footer>
+    <div class="header">
+        <div class="header">
+            
+      </div>
     <img class="logoab" src="images/cnc.jpg" alt="logo camara de comercio"/>
-    <style>
-        .logoab{
-            width:250px;height:130px;
-            margin-top: 5%;
-            margin-left: 3%;
-        }
-    </style>
-    <br><br><br>
-    <h2>Chamber of Commerce - Bolivia  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   camaradecomercio.org</h2>
-    <h2>323 South 210N, Monje Street&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +1 715 58 58 2</h2>
+    <h2>Chamber of Commerce --- Bolivia  camaradecomercio.org</h2>
+    <h2>323 South 210N, Monje Street --- +1 715 58 58 2</h2>
     <h2>La Paz, Bolivia</h2>
      <br>
 
      <h1>@2023 Bolivian Chamber | Alexander Beltran | WDD 230 Project | Last Modification: 01/04/2023 01:13</h1>
+
+    <style>
+    
+        .logoab{
+            width:250px;
+            height:130px;
+            margin-top: 5%;
+            margin-left: 3%;
+            top: 8px;
+            right: 1130px;
+        }
+    </style>
+    
+   
 </footer>
 </html>
