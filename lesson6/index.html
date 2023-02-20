@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <script src="js/java.js"></script>
+    <title>Document Lazy loading Prove</title>
+</head>
+<body>
+    
+    <section>
+            <h1>LAZY LOADING</h1>
+            <img data-src="images/one.jpg" alt="lazy" width="300" height="400" loading="lazy" class="lazyload">
+            <img data-src="images/two.jpg" alt="lazy" width="300" height="400" loading="lazy" class="lazyload">
+            <img data-src="images/three.jpg" alt="lazy" width="300" height="400" loading="lazy" class="lazyload">
+            <img data-src="images/four.jpg" alt="lazy" width="300" height="400" loading="lazy" class="lazyload">
+            <img data-src="images/five.jpg" alt="lazy" width="300" height="400" loading="lazy" class="lazyload">
+            <img data-src="images/six.jpg" alt="lazy" width="300" height="400" loading="lazy" class="lazyload">
+        
+    </section>
+
+            <script>
+                 if ('loading' in HTMLImageElement.prototype){
+                    //Native Lazy Loading Supported!
+        
+                     console. log( 'yay!')
+                     const images = document.querySelectorAll('img[loading="lazy"]')
+                     images.forEach (img => {
+                     img.src = img.dataset.src;
+                 })
+                    } else {
+                    //  Not supported!
+                    console.log('boo!')
+                    const script = document.createElement("script")
+                    script.src ='https://pixabay.com/photos/utah-salt-lake-city-building-usa-720003/'
+                    document.body.appendchild(script);
+                }
+            </script>
+       
+    </div>
+</body>
+</html>
