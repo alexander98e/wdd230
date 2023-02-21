@@ -1,0 +1,33 @@
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+@media screen and (max-width: 900px)
+{
+body {background-color: rgb(80, 139, 117);}
+}
+.img {
+    width: 100%;
+    height: 400px;
+    background-image: url('medium.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+  }
+
+.item-two {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
