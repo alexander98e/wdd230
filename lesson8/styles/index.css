@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(49, 137, 155, 0.22);
+    background-color: rgba(76, 69, 81, 0.408);
 }
 th, td {
 	padding: 7px 15px;
@@ -8,12 +8,12 @@ th, td {
 
 table,
 td {
-    border: 1px solid rgb(127, 47, 47);
+    border: 1px solid rgba(127, 47, 47, 0.594);
 }
 
 thead,
 tfoot {
-    background-color: rgb(214, 35, 35);
+    background-color: rgb(9, 7, 7);
     color: #fff;
 }
 .tr td th{
@@ -44,7 +44,10 @@ table {
     
 }
 
-
+.td{
+    background-color: rgb(9, 7, 7);
+    color: #fff;
+}
 /* credits to 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#tables_for_visually_impaired_users
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table/*
