@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="java/javas.js">
+</head>
+
+<body>
+    <header>
+        
+        <!--The header must contain a logo, site name, and navigation
+         (nav), spanning the entire screen in the large view.
+        You may elect to limit the content width within the header.-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bolivian CHAMBER of COMMERCE</title>
+        <meta name="description" content="Pagina principal de camara de comercio">
+        <div class="header">
+            
+          </div>
+        <p1>Date/Time: <span id="datetime"></span></p1>
+
+         <script>
+         var dt = new Date();
+         document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+         </script>
+      
+        <div>
+            
+            <img class="logo" src="images/cnc.jpg" alt="logo camara de comercio"
+            
+                    />
+                <style>
+
+                #logo {
+                width:200px;height:130px;
+                float: left;
+                
+                
+                }
+                
+                </style>
+                 <div class="card-holder">
+                     <div class="camara de comercio">
+                        Bolivia Chamber 
+                      <div>OF Comerce</div> 
+                     </div>
+                   </div>
+                <nav>
+                   <ul class="navbar">
+                     <li><a href="discover.html"> Discover  </a></li>
+                     <li><a href="index.html">  Principal    </a></li>
+                     <li><a href="#join">  Join        </a></li>
+                     <li><a href="#contact">  Contact</a></li>
+                    </div>
+                </ul>
+
+        <div>
+            <p><a href="https://www.facebook.com">
+            <img class="facebook" src="images/face.png" alt="facebook logo"/>
+            </a></p>
+            <p><a href="https://www.linkedin.com/">
+            <img class="linkdln" src="images/lnkdn.jpeg" alt="linkdln logo"/>
+            </a></p>
+            <style>
+
+                .facebook {
+                    position: relative;
+                    top: -168px;
+                    right: -1070px;
+                    width:60px;height:40px;
+                    
+                }
+                .linkdln{
+                    position: relative;
+                    top: -230px;
+                    right: -940px;
+                    width:60px;height:40px;
+                }
+                 </style>
+                 <div class="header">
+                   
+                  </div>
+       
+       
+                </div>     
+        <div>
+
+
+
+<main>
+        <form method="get" src="thankyou.html">
+            <fieldset>
+                <legend>Aplicant Informacion</legend>
+                <label> First Name*<input type="text" name="fname" required></label>
+                <label> Last Name*<input type="text" name="'lname" required></label><br><br>
+                <label> Email*<input type="tel" name="'email" placeholder="person@gmail.com"required></label><br><br>
+                <label> Phone*<input type="tel" name="'phone" placeholder="### - ### - ####" required></label><br><br><br>
+            </fieldset>
+            <fieldset> 
+                <legend>Business Information</legend><br>
+                <label>Business Position<input type="text" name="'bposition"></label>
+                <label>Business Name*<input type="text" name="bname" required></label><br><br>
+                <label> Business Description<input type="text" name="bdescription"></label><br><br>
+            </fieldset>
+            <fieldset> 
+                <legend>Join Us</legend><br>
+                <label>Membership level
+                    <select name="membership">
+                        <option value="">Please Select</option>
+                        <option value="npmember">NP Membership (FREE)</option>
+                        <option value="bronmember">Bronze Membership - $ 15</option>
+                        <option value="silmember">Silver Membership - $ 30</option>
+                        <option value="goldmember">Gold Membership - $ 50</option>
+            </fieldset><br>
+                    </select>
+
+                </label>
+                
+
+                
+                
+            </fieldset><br>
+
+            <input type="submit" value = "Submit Information" class="submitBtn">
+
+</form>
+            
+        
+       
+    
+    
+</main>
+
+<footer>
+    <div class="header">
+        <div class="header">
+            
+      </div>
+    <img class="logoab" src="images/cnc.jpg" alt="logo camara de comercio"/>
+    <h2>Chamber of Commerce --- Bolivia  camaradecomercio.org</h2>
+    <h2>323 South 210N, Monje Street --- +1 715 58 58 2</h2>
+    <h2>La Paz, Bolivia</h2>
+     <br>
+
+     <h1>@2023 Bolivian Chamber | Alexander Beltran | WDD 230 Project | Last Modification: 01/04/2023 01:13</h1>
+
+    <style>
+    
+        .logoab{
+            width:250px;
+            height:130px;
+            margin-top: 5%;
+            margin-left: 3%;
+            top: 8px;
+            right: 1130px;
+        }
+    </style>
+    
+   
+</footer>
+</html>
