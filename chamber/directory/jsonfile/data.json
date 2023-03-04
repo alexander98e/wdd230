@@ -1,0 +1,85 @@
+{
+    "banks": [
+      {
+        "name": "BNB",
+        "adress": "Camacho Street #233",
+        "phone": "87834253",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiry_bnlsP9AhXyDkQIHVtrBTIQFnoECBAQAQ&url=https%3A%2F%2Fwww.bnb.com.bo%2F&usg=AOvVaw2WyfcH7h_HqWhFvcemT6gk",
+        "yearsservice": 32,
+        "membershiplvl": "Gold",
+        "imageurl": "https://play-lh.googleusercontent.com/EDhozWhNCLv4mf_lSQxEaOkAYPTwx4Y-R28PQEqnYi-CNxH5aE316KKpulJQU5LXVilZ"
+      },
+      {
+        "name": "BCB",
+        "adress": "Perez Velasco Street #111",
+        "phone": "76892932",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjotIHzlsP9AhU3J0QIHfi2A8gQFnoECBMQAQ&url=https%3A%2F%2Fwww.bcb.gob.bo%2F&usg=AOvVaw0P4mliRYAnVR_b1Y0jwBIA",
+        "yearsservice": 40,
+        "membershiplvl": "Gold",
+        "imageurl": "https://cdnimg.bnamericas.com/XDtLBIOHqcdbhOchbGNJbQITAtWYKsiKbeCuvMVjETciVdYXoJFvtQABnnVmhzSb.png"
+      },
+      {
+        "name": "Banco Bisa",
+        "adress": "Pedro Tarifa Street #1331",
+        "phone": "712353532",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjNmcb7lsP9AhUHJEQIHTl1ASkQFnoECAkQAQ&url=https%3A%2F%2Fwww.bisa.com%2F&usg=AOvVaw2qtL679pJjUiwOtnWxB2mw",
+        "yearsservice": 20,
+        "membershiplvl": "Silver",
+        "imageurl": "https://play-lh.googleusercontent.com/Snd0F_mVlP--83wmEZWnr4MirggEFFU4KrZ-y2wR1yJmaJC5MQHIgoQONRSwUYRRds4"
+      },
+      {
+        "name": "Banco Economico",
+        "adress": "Ixiamas Street #311",
+        "phone": "244253532",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi47a6Il8P9AhU0KEQIHSJ9BBEQFnoECAkQAQ&url=https%3A%2F%2Fwww.baneco.com.bo%2F&usg=AOvVaw3YGHEcIomwKYyZ7vAeGg8w",
+        "yearsservice": 23,
+        "membershiplvl": "Gold",
+        "imageurl": "https://cdnimg.bnamericas.com/EGuGVBzFQsMkAmvJVDzEFtPTIPpDEeHJauskGNLJnFwXFwllaaLxHfrfKQByJKmr.png"
+      },
+      {
+        "name": "Banco Sol",
+        "adress": "Olivares Street #451",
+        "phone": "295856532",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiv_qWPl8P9AhU8EEQIHfmKDEQQFnoECAkQAQ&url=https%3A%2F%2Fwww.bancosol.com.bo%2F&usg=AOvVaw0MaCpwJlXzCtIq1eTuzphK",
+        "yearsservice": 33,
+        "membershiplvl": "Siver",
+        "imageurl": "https://play-lh.googleusercontent.com/YLnAe5d2sdBHlqvMGcFf2WxJPX5fVJx7ymN576eI0y-RntV8u5sZcxvyptIHkwfr0g"
+      },
+      {
+        "name": "Banco Economico",
+        "adress": "Ixiamas Street #311",
+        "phone": "244253532",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi1s_aVl8P9AhV4IUQIHfetAx4QFnoECAkQAQ&url=https%3A%2F%2Fwww.baneco.com.bo%2F&usg=AOvVaw3YGHEcIomwKYyZ7vAeGg8w",
+        "yearsservice": 23,
+        "membershiplvl": "Gold",
+        "imageurl": "https://cdnimg.bnamericas.com/EGuGVBzFQsMkAmvJVDzEFtPTIPpDEeHJauskGNLJnFwXFwllaaLxHfrfKQByJKmr.png"
+      },
+      {
+        "name": "Mercantil Santa CR",
+        "adress": "Villaroel Street #16",
+        "phone": "123253532",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwif1Pikl8P9AhVcNEQIHfFHDAoQFnoECAkQAQ&url=https%3A%2F%2Fwww.bmsc.com.bo%2F&usg=AOvVaw0OPrJsrs98sabkfQkWXbiW",
+        "yearsservice": 43,
+        "membershiplvl": "Silver",
+        "imageurl": "https://quanam.com/wp-content/uploads/2019/06/logo_mercantil_bolivia_gde.png"
+      },
+      {
+        "name": "Banco Union",
+        "adress": "Sucre Street #982",
+        "phone": "67773532",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjRqOWtl8P9AhVoEUQIHQlGCVYQFnoECAkQAQ&url=https%3A%2F%2Fbancounion.com.bo%2F&usg=AOvVaw0pL0IPTHbtE80Ui8Mc7rxL",
+        "yearsservice": 10,
+        "membershiplvl": "Bronze",
+        "imageurl": "https://pbs.twimg.com/profile_images/1480886081214164996/Ohuphc1k_400x400.jpg"
+      },
+      {
+        "name": "Banco Fie",
+        "adress": "Alto Street #2221",
+        "phone": "223100032",
+        "websiteurl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjW94y1l8P9AhVYKEQIHaVgC6AQFnoECBYQAQ&url=https%3A%2F%2Fwww.bancofie.com.bo%2F&usg=AOvVaw2jipDpjRlZ4T9FRIsuMitw",
+        "yearsservice": 14,
+        "membershiplvl": "Bronze",
+        "imageurl": "https://play-lh.googleusercontent.com/FsFibjscS53bZNI_NYfKpmcbi1w8tel05it5iK3Ns6jYE4PeHj5451G9aIXNn2mHCYA"
+      }
+    ]
+  }
