@@ -1,3 +1,39 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
 header,
 main,
 footer {
@@ -8,12 +44,12 @@ footer {
 h1 {
   color: #000;
   border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #777;
+  text-shadow: 0 0 15px rgb(119, 119, 119);
   width: 60%;
 }
 
 h2 {
-  color: navy;
+  color: rgb(45, 128, 0);
   margin: 0 0 1rem 0;
 	 border-bottom: 1px solid #bbb;
 }
@@ -24,7 +60,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
-  section {
+section {
     margin: 0.25rem;
     padding: 0.35rem;
     background-color: #eee;
@@ -40,7 +76,7 @@ img {
     height: 200px;
     border: 1px solid #333;
   }
-  .caption {
+.caption {
     position: absolute;
     top: 1.5rem;
     right: 2rem;
@@ -56,3 +92,292 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 10px;
   }
+
+.header {
+    padding: 25px;
+    text-align: center;
+    background: #18886a;
+    
+    
+  }
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+body {
+    background-color: rgb(127, 171, 163);
+    padding-bottom: 30px;
+}
+
+
+.navbar a{
+    float:left;
+    color: rgb(0, 0, 0);
+    
+    }
+.navbar a {
+        display:block;
+        text-align:right;
+        width:180px; /* fixed width */
+         
+
+        }
+.logo{
+    cursor: pointer;
+    width:200px;
+    height:130px;
+}
+
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 0px;
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color :rgba(173, 17, 17, 0.829)
+}
+ 
+
+button:hover{
+    background-color: rgba(183, 180, 180, 0);
+    
+}
+
+a 
+{  
+font-size:x-large;  
+}  
+.h2{
+    orientation: top;
+}
+
+.main {
+    display: flex;
+    align-items: right;
+    width: 95vw;
+    height: 104vh;
+    margin: 0% auto;
+    background-color: rgb(240, 234, 229); 
+    outline: 8px solid #44362b00;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: rotate(-57deg); 
+    -ms-transform: rotate(-57deg); 
+    -webkit-transform: rotate(-57deg); 
+    -moz-transform: rotate(-57deg);
+   
+    }
+
+
+h2{
+    text-align: center;
+    color: #1d265e;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	margin: 0 auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #eee;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.cards {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+
+.cards button {
+	padding: 1rem;
+	font-weight: 700;
+  color: rgb(126, 130, 63);
+  
+}
+
+article,
+section {
+	margin: 0.5rem;
+}
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ccc;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: rep  eat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+
+/*tablet config */
+
+@media screen and (max-width: 800px)
+{
+body {background-color: rgba(64, 64, 180, 0.787);}
+}
+#container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px)
+{
+
+    body {background-color: rgba(14, 53, 14, 0.988); }
+
+}
+
+@media all and (max-width: 500px) {
+    
+
+@media (max-width: 480px) {
+    #picblock {
+      background-image: url(mobile.png);
+      background-repeat: no-repeat;
+      background-size: contain ;
+    }
+  }
+@media (min-width: 481px) {
+    #picblock {
+      background-image: url(desktop.png);
+      background-repeat: no-repeat;
+      background-size: contain ;
+    }
+  }
+}
+
+.hero {
+    margin-top: 30px; text-align: center;
+    }
+.hero img {
+    max-width: 100%;
+    }
+img {
+    max-width: 100%;
+ }
+.div{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-group{
+    width:60px;
+    height: 60px;
+    
+}
+.item-two {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+
+
+.main {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.cardslist:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 100%;
+  align-items: center;
+}
+
+.menu button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
