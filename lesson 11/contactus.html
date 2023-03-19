@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang=”en-US”>
+<head>
+    <meta charset=”UTF-8″ />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">  
+   
+</head>
+<body>
+    <header>
+        
+        <!--The header must contain a logo, site name, and navigation
+         (nav), spanning the entire screen in the large view.
+        You may elect to limit the content width within the header.-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bolivian CHAMBER of COMMERCE</title>
+        <meta name="description" content="Pagina principal de camara de comercio">
+        <div class="header">
+            
+          </div>
+        <p1>Date/Time: <span id="datetime"></span></p1>
+
+         <script>
+         var dt = new Date();
+         document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+         </script>
+      
+        <div>
+            
+            <img class="logo" src="images/cnc.jpg" alt="logo camara de comercio"
+            
+                    />
+                <style>
+
+                #logo {
+                width:200px;height:130px;
+                float: left;
+                
+                
+                }
+                
+                </style>
+                 <div class="card-holder">
+                     <div class="camara de comercio">
+                        Bolivia Chamber 
+                      <div>OF Comerce</div> 
+                     </div>
+                   </div>
+                <nav>
+                   <ul class="navbar">
+                    <li><a href="index.html"> Home  </a></li>
+                    <li><a href="/lesson7/discover.html"> Discover    </a></li>
+                    <li><a href="/chamber/directory/directory.html">  Directory    </a></li>
+                    <li><a href="/lesson9/join.html">  Join        </a></li>
+                    <li><a href="/lesson 11/contactus.html">  Contact</a></li>
+                    </div>
+                </ul>
+        <div>
+            <p><a href="https://www.facebook.com">
+            <img class="facebook" src="images/face.png" alt="facebook logo"/>
+            </a></p>
+            <p><a href="https://www.linkedin.com/">
+            <img class="linkdln" src="images/lnkdn.jpeg" alt="linkdln logo"/>
+            </a></p>
+            <style>
+
+                .facebook {
+                    position: relative;
+                    top: -168px;
+                    right: -1070px;
+                    width:60px;height:40px;
+                    
+                }
+                .linkdln{
+                    position: relative;
+                    top: -230px;
+                    right: -940px;
+                    width:60px;height:40px;
+                }
+                 </style>
+                 <div class="header">
+                   
+                  </div>
+        </div>     
+    </header>
+    <main>
+        <section id="hero-msg"><br><br><br>
+            <h1 class="home-title">Learn and Progress with Us!</h1>
+            <h4> Sign for free Articles and more Information! </h4>
+            <div class='button-box'>
+                <a class='book' href="/lesson9/join.html">Sign Now</a>
+    </div>
+    <div id="feedback"></div>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+          
+        </ul>
+      </form>
+    
+</main>
+</main>
+
+    
+</body>
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+<body>
+<div id="content">
+    <header>
+        <footer>
+            <div class="header">
+                <div class="header">
+                    
+              </div>
+            <img class="logoab" src="images/cnc.jpg" alt="logo camara de comercio"/>
+            <h2>Chamber of Commerce --- Bolivia  camaradecomercio.org</h2>
+            <h2>323 South 210N, Monje Street --- +1 715 58 58 2</h2>
+            <h2>La Paz, Bolivia</h2>
+             <br>
+        
+             <h1>@2023 Bolivian Chamber | Alexander Beltran | WDD 230 Project | Last Modification: 01/04/2023 01:13</h1>
+        
+            <style>
+            
+                .logoab{
+                    width:250px;
+                    height:130px;
+                    margin-top: 5%;
+                    margin-left: 3%;
+                    top: 8px;
+                    right: 1130px;
+                }
+            </style>
+            
+           
+        </footer>
+        <script src="apijs/weatherapi.js"></script>
+        </html>
+        
+    </footer>
+</div>
+</body>
+</html>   
+
