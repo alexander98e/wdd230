@@ -16,10 +16,24 @@ $(function() {
  
  });
 
- function testVariable() {
+function testVariable() {
   var strText = document.getElementById("textone").value;          
   var strText1 = document.getElementById("textTWO").value;
   var result = strText + ' ' + strText1;
   document.getElementById('spanResult').textContent = result;
    
+}
+
+window.onload = function () {
+  var contador = 0;
+  const botones=document.querySelectorAll(".boton");
+  botones.forEach(el => {
+      el.addEventListener("click", contar);
+  });
+
+  function contar()
+  {
+      contador++;
+      document.getElementById("mostrar").innerHTML = contador
+  }
 }
