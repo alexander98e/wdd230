@@ -132,6 +132,7 @@
    grid-row-end: 2;
    grid-column-end: 3;
    border: 8px solid rgb(10, 9, 9);
+   box-shadow: 10px 10px 10px #999;
   
    
 }
@@ -144,7 +145,7 @@
    grid-row-end: 3;
    grid-column-end: 4;
    border: 8px solid rgb(10, 9, 9);
-   
+   box-shadow: 10px 10px 10px #999;
 }
 #item-2 {
 
@@ -155,6 +156,7 @@
    grid-row-end: 3;
    grid-column-end: 2;
    border: 8px solid rgb(10, 9, 9);
+   box-shadow: 10px 10px 10px #999;
 }
 #item-3 {
 
@@ -165,6 +167,7 @@
    grid-row-end: 4;
    grid-column-end: 3;
    border: 8px solid rgb(10, 9, 9);
+   box-shadow: 10px 10px 10px #999;
 }
 #item-4 {
 
@@ -175,6 +178,7 @@
    grid-row-end: 4;
    grid-column-end: 2;
    border: 8px solid rgb(10, 9, 9);
+   box-shadow: 10px 10px 10px #999;
 }
 #item-5 {
 
@@ -185,6 +189,8 @@
    grid-row-end: 4;
    grid-column-end: 6;
    border: 8px solid rgb(10, 9, 9);
+   box-shadow: 10px 10px 10px #999;
+   text-align: center;
 }
 #item-6 {
 
@@ -195,6 +201,7 @@
    grid-row-end: 3;
    grid-column-end: 6;
    border: 8px solid rgb(10, 9, 9);
+   box-shadow: 10px 10px 10px #999;
 }
 * {
   margin: 0;
@@ -364,9 +371,7 @@ body{
   }
   }
   
-p{
-  text-align: end;
-}
+
 
 #areaContador {
   font-size: 40px;
