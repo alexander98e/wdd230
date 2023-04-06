@@ -1,39 +1,7 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
-
-$(function() {
-
-
-    var fruits = [];
- 
-    $.getJSON('fruits.json', function(data) {
-        $.each(data.person, function(i, f) {
-           var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
-            "<td>" + f.genus + "</td>" + "<td>" + f.order + "</td>" + "<td>" + f.calories + "</td>" + "</tr>"
-            $(tblRow).appendTo("#userdata tbody");
-      });
- 
-    });
- 
- });
-
-function testVariable() {
-  var strText = document.getElementById("textone").value;          
-  var strText1 = document.getElementById("textTWO").value;
-  var result = strText + ' ' + strText1;
-  document.getElementById('spanResult').textContent = result;
-   
-}
-
-window.onload = function () {
-  var contador = 0;
-  const botones=document.querySelectorAll(".boton");
-  botones.forEach(el => {
-      el.addEventListener("click", contar);
-  });
-
-  function contar()
-  {
-      contador++;
-      document.getElementById("mostrar").innerHTML = contador
-  }
-}
+var botonElement = document.getElementById("botonClick");
+            var pElement = document.getElementById("areaContador");
+            var contador = 0;
+            botonElement.onclick = function () {
+                contador++;
+                pElement.textContent = contador;
+            }
