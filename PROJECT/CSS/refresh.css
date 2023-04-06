@@ -165,3 +165,10 @@ text-align:left;
 margin:0% 3%;
 }
 }
+
+#areaContador {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: impact;
+  margin: 10px;
+}

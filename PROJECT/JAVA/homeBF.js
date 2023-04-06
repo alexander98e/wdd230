@@ -46,3 +46,23 @@ async function apiFetch() {
         
   }
   
+var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+
+
+window.onload = function () {
+  var contador = 0;
+  const botones=document.querySelectorAll(".boton");
+  botones.forEach(el => {
+      el.addEventListener("click", contar);
+  });
+
+  function contar()
+  {
+      contador++;
+      document.getElementById("mostrar").innerHTML = contador
+  }
+}

@@ -1,11 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
-  body{
-   background-color: #ffffff00;
+  .body{
+    background-color: #1e1a34;
   }
+ 
   ul{
     display: flex;
     width: 100%;
@@ -350,7 +352,7 @@ body{
   @media (max-width:720px){
   .footer{
   text-align:left;
-  padding:5%;
+  padding:0 ;
   }
   .footer .row ul li{
   display:block;
@@ -361,3 +363,14 @@ body{
   margin:0% 3%;
   }
   }
+  
+p{
+  text-align: end;
+}
+
+#areaContador {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: impact;
+  margin: 10px;
+}
